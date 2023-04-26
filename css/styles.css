@@ -131,6 +131,7 @@ header .nav-item:hover {
   max-width: 100%;
 }
 
+/*Menu del Footer*/
 footer {
   display: flex;
   background-color: #FFD3DB;
@@ -170,6 +171,12 @@ footer .col-md-6 .footer-a .nav-item {
 }
 footer .col-md-6 .footer-a .nav-item:hover {
   transform: scale(1.1, 1.1);
+}
+
+/*Mapa*/
+.mapa {
+  width: 90%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
