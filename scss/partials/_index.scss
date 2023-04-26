@@ -30,6 +30,10 @@
     display: flex;
     width: 25%;
     margin: 0 auto;
+    transform: scale(1.1,1.1);
+    &:hover{
+        transform: scale(1.1,1.1);
+    }
 }
 
 

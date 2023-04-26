@@ -114,6 +114,10 @@ header .nav-item:hover {
   display: flex;
   width: 25%;
   margin: 0 auto;
+  transform: scale(1.1, 1.1);
+}
+.categorias-index:hover {
+  transform: scale(1.1, 1.1);
 }
 
 /*Medio de pago*/
