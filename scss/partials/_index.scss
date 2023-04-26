@@ -1,0 +1,50 @@
+/*Carrousel de imagenes*/
+
+#carouselExampleIndicators{
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*ESTILO DE CARDS = VER EN GENERALES*/
+
+/*Estilo de Categorias*/
+
+.categoria{
+    display: flex;
+    width: 120%;
+    margin: 0 auto;
+    border-radius: 1.9rem;
+    &:hover{
+        transform: scale(1.1,1.1);
+        box-shadow: 3px 2px 2px black;
+    }
+}
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.categorias-index {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    width: 20%;
+    margin: 0 auto;
+    @media  (max-width: 428px) {
+        .categoria-index{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+
+/*Medio de pago*/
+
+.modo-pago{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 100%;
+}

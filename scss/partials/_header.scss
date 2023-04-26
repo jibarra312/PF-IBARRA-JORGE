@@ -1,0 +1,31 @@
+header{
+    display:flex;
+    align-items: center;
+    background-color: #FFCAD4;
+        img{
+            width: 65%;
+        }
+        img:hover{
+            transform: scale(1.1,1.1);
+            box-shadow: 1px 2px 1px black;
+        }
+        .navbar-nav{
+            display: flex;
+            list-style: none;
+            gap: 1.25rem;
+            font-size: 1rem;
+            margin-left:1.9rem;
+        }
+            .nav-item{
+                background-color:#FFEDF0;
+                padding: 8px;
+                border-radius: 25px;
+                text-decoration: none;
+                color: black;
+                box-shadow: 1px 1px 2px black;
+            }
+            .nav-item:hover{
+                transform: scale(1.1,1.1);
+            }
+}
+

@@ -1,0 +1,59 @@
+/*Pagina principal - defecto*/
+*{
+    margin:0;
+    padding: 0;
+    justify-content: center;
+}
+
+body{
+    background-color:#FFFBFC ;
+}
+
+h4{
+    background-color:#FFEDF0 ;
+    padding: 0.9rem;
+    font-size: 1.5rem;
+}
+
+h5, h4, p{
+    text-align: center;
+}
+
+h6{
+    display: flex;
+    justify-content: center;
+    text-decoration: line-through ;
+}
+
+/*CARDS GENERALES PARA TODOS LOS PRODUCTOS*/
+
+.card{
+    width: 10rem;
+    margin: 1.9rem 1.9rem 0.9rem 1.3rem;
+    background-color: white;
+    border: solid #FF8AA0;
+    box-shadow: 0rem 0rem 0.4rem black;
+    .card-header{
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: #F4ACB7;
+    }
+        .btn{
+            display: flex;
+        }
+}
+
+/*Boton de Whatsapp en todas las paginas*/
+
+.whatsapp{
+    width: 55px;
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    &:hover{
+        transform: scale(1.1,1.1);
+        box-shadow: 1px 1px 2px black;
+    }
+}
+
+

@@ -1,0 +1,175 @@
+/*Pagina principal - defecto*/
+* {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+body {
+  background-color: #FFFBFC;
+}
+
+h4 {
+  background-color: #FFEDF0;
+  padding: 0.9rem;
+  font-size: 1.5rem;
+}
+
+h5, h4, p {
+  text-align: center;
+}
+
+h6 {
+  display: flex;
+  justify-content: center;
+  text-decoration: line-through;
+}
+
+/*CARDS GENERALES PARA TODOS LOS PRODUCTOS*/
+.card {
+  width: 10rem;
+  margin: 1.9rem 1.9rem 0.9rem 1.3rem;
+  background-color: white;
+  border: solid #FF8AA0;
+  box-shadow: 0rem 0rem 0.4rem black;
+}
+.card .card-header {
+  font-size: 1.3rem;
+  text-align: center;
+  background-color: #F4ACB7;
+}
+.card .btn {
+  display: flex;
+}
+
+/*Boton de Whatsapp en todas las paginas*/
+.whatsapp {
+  width: 55px;
+  position: fixed;
+  bottom: 60px;
+  right: 50px;
+}
+.whatsapp:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 1px 1px 2px black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #FFCAD4;
+}
+header img {
+  width: 65%;
+}
+header img:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 1px 2px 1px black;
+}
+header .navbar-nav {
+  display: flex;
+  list-style: none;
+  gap: 1.25rem;
+  font-size: 1rem;
+  margin-left: 1.9rem;
+}
+header .nav-item {
+  background-color: #FFEDF0;
+  padding: 8px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 1px 1px 2px black;
+}
+header .nav-item:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/*Carrousel de imagenes*/
+#carouselExampleIndicators {
+  width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/*ESTILO DE CARDS = VER EN GENERALES*/
+/*Estilo de Categorias*/
+.categoria {
+  display: flex;
+  width: 120%;
+  margin: 0 auto;
+  border-radius: 1.9rem;
+}
+.categoria:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 3px 2px 2px black;
+}
+
+.row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.categorias-index {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  width: 20%;
+  margin: 0 auto;
+}
+@media (max-width: 428px) {
+  .categorias-index .categoria-index {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*Medio de pago*/
+.modo-pago {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 100%;
+}
+
+footer {
+  display: flex;
+  background-color: #FFD3DB;
+  justify-content: left;
+  align-items: center;
+  padding: 3.1rem;
+}
+footer .col-md-6 {
+  display: flex;
+  align-items: center;
+}
+footer .col-md-6 .footer-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+footer .col-md-6 .footer-a:hover {
+  color: white;
+}
+footer .col-md-6 .footer-a .logo-newart {
+  width: 100%;
+}
+footer .col-md-6 .footer-a .logo-newart:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 1px 1px 2px black;
+}
+footer .col-md-6 .footer-a .nav-item {
+  display: flex;
+  margin: 3px;
+  background-color: #FFEDF0;
+  padding: 0.5rem;
+  border-radius: 1.6rem;
+  text-decoration: none;
+  color: black;
+  box-shadow: 1px 1px 2px black;
+}
+footer .col-md-6 .footer-a .nav-item:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/*# sourceMappingURL=styles.css.map */
