@@ -6,11 +6,11 @@
 }
 
 body {
-  background-color: #FFFBFC;
+  background-color: #FFF3F8;
 }
 
 h4 {
-  background-color: #FFEDF0;
+  background-image: radial-gradient(circle, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
   padding: 0.9rem;
   font-size: 1.5rem;
 }
@@ -57,7 +57,7 @@ h6 {
 header {
   display: flex;
   align-items: center;
-  background-color: #FFCAD4;
+  background-image: linear-gradient(to bottom, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
 }
 header img {
   width: 65%;
@@ -87,7 +87,7 @@ header .nav-item:hover {
 
 /*Carrousel de imagenes*/
 #carouselExampleIndicators {
-  width: 80%;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -132,7 +132,7 @@ header .nav-item:hover {
 /*Menu del Footer*/
 footer {
   display: flex;
-  background-color: #FFD3DB;
+  background-image: linear-gradient(to top, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
   justify-content: left;
   align-items: center;
   padding: 3.1rem;
