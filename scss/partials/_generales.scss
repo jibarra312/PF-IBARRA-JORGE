@@ -9,7 +9,7 @@ body{
     background-color:#FFF3F8 ;
 }
 
-h4{
+h4, h1, h2{
     background-image: radial-gradient(circle, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
     padding: 0.9rem;
     font-size: 1.5rem;
@@ -17,6 +17,7 @@ h4{
 
 h5, h4, h3, p{
     text-align: center;
+    margin: 0 auto;
 }
 
 h6{
