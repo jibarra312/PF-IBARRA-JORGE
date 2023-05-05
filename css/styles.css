@@ -139,7 +139,7 @@ header .nav-item:hover {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   max-width: 100%;
 }
 
