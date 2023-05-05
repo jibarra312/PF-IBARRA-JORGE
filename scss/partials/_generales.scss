@@ -6,11 +6,11 @@
 }
 
 body{
-    background-color:#FFF3F8 ;
+    background-color: $color-terciario;
 }
 
 h4, h1, h2{
-    background-image: radial-gradient(circle, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
+    background-image: $titulo-principal;
     padding: 0.9rem;
     font-size: 1.5rem;
     text-align: center;
@@ -52,8 +52,8 @@ h6{
     bottom: 60px;
     right: 50px;
     &:hover{
-        transform: scale(1.1,1.1);
-        box-shadow: 1px 1px 2px black;
+        transform: $scale-3d;
+        box-shadow: $fondo-black;
     }
 }
 

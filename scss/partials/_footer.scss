@@ -19,8 +19,8 @@ footer{
             }
             .logo-newart{
                 &:hover{
-                    transform: scale(1.1, 1.1);
-                    box-shadow: 1px 1px 2px black;
+                    transform: $scale-3d;
+                    box-shadow: $fondo-black;
                 }
             }
             .nav-item{
@@ -31,9 +31,9 @@ footer{
                 border-radius: 1.6rem;
                 text-decoration: none;
                 color: black;
-                box-shadow: 1px 1px 2px black;
+                box-shadow: $fondo-black;
                 &:hover{
-                    transform: scale(1.1,1.1);
+                    transform: $scale-3d;
                 }
             }
         }

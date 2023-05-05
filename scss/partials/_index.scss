@@ -18,8 +18,8 @@
     margin: 0 auto;
     border-radius: 1.9rem;
     &:hover{
-        transform: scale(1.1,1.1);
-        box-shadow: 3px 2px 2px black;
+        transform: $scale-3d;
+        box-shadow: $fondo-black;
     }
 }
 
@@ -32,9 +32,9 @@
     display: flex;
     width: 25%;
     margin: 0 auto;
-    transform: scale(1.1,1.1);
+    transform: $scale-3d;
     &:hover{
-        transform: scale(1.1,1.1);
+        transform: $scale-3d;
     }
 }
 
