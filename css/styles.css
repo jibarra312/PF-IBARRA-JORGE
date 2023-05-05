@@ -20,9 +20,13 @@ h4, h1, h2 {
   text-align: center;
 }
 
-h3, p {
+h3, h5 {
   text-align: center;
   margin: 0 auto;
+}
+
+p {
+  text-align: center;
 }
 
 h6 {
@@ -95,6 +99,11 @@ header .nav-item:hover {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
+}
+
+/*Frase de bienvenida*/
+#frase {
+  font-style: italic;
 }
 
 /*ESTILO DE CARDS = VER EN GENERALES*/
@@ -177,6 +186,11 @@ footer .col-md-6 .footer-a .nav-item:hover {
 .mapa {
   width: 90%;
   margin: 0 auto;
+}
+
+/*Frase de Mayorista y minorista*/
+.frase {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
