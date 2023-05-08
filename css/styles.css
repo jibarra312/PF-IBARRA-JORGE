@@ -135,9 +135,14 @@ header .nav-item:hover {
 }
 
 /*Medio de pago*/
+.container-medio-pago {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .container-medio-pago .efectivo-transferencia {
+  width: 80%;
   display: flex;
-  gap: 30px;
+  gap: 1.9rem;
 }
 .container-medio-pago .efectivo-transferencia .efectivo, .container-medio-pago .efectivo-transferencia .transferencia, .container-medio-pago .efectivo-transferencia .tarjeta {
   color: #2B363B;
@@ -145,6 +150,7 @@ header .nav-item:hover {
   font-size: 7.5rem;
 }
 .container-medio-pago .entidades-pago {
+  width: 80%;
   color: #566B76;
   display: flex;
   align-items: center;
@@ -159,6 +165,9 @@ footer {
   align-items: center;
   padding: 3.1rem;
 }
+footer .container {
+  width: 90%;
+}
 footer .container .footer-row {
   display: flex;
 }
@@ -167,14 +176,14 @@ footer .container .footer-row .footer-nav {
 }
 footer .container .footer-row .footer-nav .redes-sociales {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
 }
 footer .container .footer-row .footer-nav .redes-sociales a {
   display: flex;
   justify-content: center;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 1.9rem;
 }
 footer .container .footer-row .footer-nav .redes-sociales a:hover {
   transform: scale(1.5, 1.5);
@@ -185,7 +194,7 @@ footer .container .footer-row .footer-nav .footer-logo-newart {
 }
 footer .container .footer-row .footer-nav .footer-logo-newart img {
   width: 60%;
-  border-radius: 300px;
+  border-radius: 18.9rem;
 }
 footer .container .footer-row .footer-nav .footer-logo-newart img:hover {
   transform: scale(1.1, 1.1);
@@ -199,7 +208,7 @@ footer .container .footer-row .footer-nav .footer-menu .footer-list {
   display: flex;
   justify-content: left;
   text-decoration: none;
-  margin: 15px;
+  margin: 1rem;
   color: black;
 }
 footer .container .footer-row .footer-nav .footer-menu .footer-list:hover {

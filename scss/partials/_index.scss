@@ -45,10 +45,12 @@
 /*Medio de pago*/
 
 .container-medio-pago{
+    max-width: 1200px;
+    margin: 0 auto;
     .efectivo-transferencia{
+        width: 80%;
         display: flex;
         gap:1.9rem;
-        width: 90%;
         .efectivo, .transferencia, .tarjeta{
             color:#2B363B;
             display: flex;
@@ -56,7 +58,7 @@
         }
     }
     .entidades-pago{
-        width: 90%;
+        width: 80%;
         color:#566B76;
         display: flex;
         align-items: center;
