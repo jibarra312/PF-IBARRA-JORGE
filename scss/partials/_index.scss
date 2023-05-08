@@ -57,13 +57,15 @@
     gap:$espacio-grande;
 }
 
-@media (min-width: $tablet){
+@media (min-width: $desktop){
     .container-pago, .contenedor-entidades{
         flex-direction: row;
         justify-content: center;
-        gap: $espacio-grande;
+        gap: $espacio-chico;
     }
 }
+
+
 
 .efectivo, .transferencia, .tarjeta, .visa, .american-express, .master-card, .mercado-pago {
     @include flex-column;
