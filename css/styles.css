@@ -142,13 +142,13 @@ header .nav-item:hover {
 .container-medio-pago .efectivo-transferencia .efectivo, .container-medio-pago .efectivo-transferencia .transferencia, .container-medio-pago .efectivo-transferencia .tarjeta {
   color: #2B363B;
   display: flex;
-  font-size: 120px;
+  font-size: 7.5rem;
 }
 .container-medio-pago .entidades-pago {
   color: #566B76;
   display: flex;
   align-items: center;
-  font-size: 110px;
+  font-size: 7rem;
 }
 
 /*Menu del Footer*/
