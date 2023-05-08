@@ -2,6 +2,10 @@
 /*Colores*/
 /*Titulos*/
 /*Decoración*/
+/*Tamaños de iconos*/
+/*Separaciones (margenes y paddings)*/
+/*Resolución de pantalla*/
+/*Mixins*/
 /*Pagina principal - defecto*/
 * {
   margin: 0;
@@ -23,10 +27,6 @@ h4, h1, h2 {
 h3, h5 {
   text-align: center;
   margin: 0 auto;
-}
-
-p {
-  text-align: center;
 }
 
 h6 {
@@ -135,26 +135,35 @@ header .nav-item:hover {
 }
 
 /*Medio de pago*/
-.container-medio-pago {
-  max-width: 1200px;
-  margin: 0 auto;
+.container h3 {
+  font-size: 20px;
 }
-.container-medio-pago .efectivo-transferencia {
-  width: 80%;
+
+.container-pago-general {
   display: flex;
-  gap: 1.9rem;
 }
-.container-medio-pago .efectivo-transferencia .efectivo, .container-medio-pago .efectivo-transferencia .transferencia, .container-medio-pago .efectivo-transferencia .tarjeta {
-  color: #2B363B;
+
+.container-pago, .contenedor-entidades {
   display: flex;
-  font-size: 7.5rem;
-}
-.container-medio-pago .entidades-pago {
-  width: 80%;
-  color: #566B76;
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  font-size: 7rem;
+  gap: 60px;
+}
+
+@media (min-width: 768px) {
+  .container-pago, .contenedor-entidades {
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+  }
+}
+.efectivo, .transferencia, .tarjeta, .visa, .american-express, .master-card, .mercado-pago {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.efectivo iconify-icon, .transferencia iconify-icon, .tarjeta iconify-icon, .visa iconify-icon, .american-express iconify-icon, .master-card iconify-icon, .mercado-pago iconify-icon {
+  font-size: 90px;
 }
 
 /*Menu del Footer*/

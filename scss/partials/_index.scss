@@ -44,24 +44,31 @@
 
 /*Medio de pago*/
 
-.container-medio-pago{
-    max-width: 1200px;
-    margin: 0 auto;
-    .efectivo-transferencia{
-        width: 80%;
-        display: flex;
-        gap:1.9rem;
-        .efectivo, .transferencia, .tarjeta{
-            color:#2B363B;
-            display: flex;
-            font-size: 7.5rem;
-        }
+.container h3{
+    font-size: 20px;
+}
+
+.container-pago-general{
+    display: flex
+}
+
+.container-pago, .contenedor-entidades {
+    @include flex-column;
+    gap:$espacio-grande;
+}
+
+@media (min-width: $tablet){
+    .container-pago, .contenedor-entidades{
+        flex-direction: row;
+        justify-content: center;
+        gap: $espacio-grande;
     }
-    .entidades-pago{
-        width: 80%;
-        color:#566B76;
-        display: flex;
-        align-items: center;
-        font-size: 7rem;
+}
+
+.efectivo, .transferencia, .tarjeta, .visa, .american-express, .master-card, .mercado-pago {
+    @include flex-column;
+
+    iconify-icon{
+        font-size: $icono-grande;
     }
-    }
+}

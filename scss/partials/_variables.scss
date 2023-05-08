@@ -7,8 +7,40 @@ $color-terciario: #FFF3F8;
 $titulo-principal: radial-gradient(circle, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
 
 
+
 /*Decoración*/
 
 $fondo-black: 1px 1px 2px black;
-$scale-3d: scale(1.1,1.1)
+$scale-3d: scale(1.1,1.1);
+
+/*Tamaños de iconos*/
+$icono-chico: 40px;
+$icono-grande: 90px;
+
+/*Separaciones (margenes y paddings)*/
+$espacio-Xchico: 10px;
+$espacio-chico: 20px;
+$espacio-medio: 40px;
+$espacio-grande:60px;
+
+
+/*Resolución de pantalla*/
+
+$tablet: 768px;
+$desktop: 992px;
+$desktopXG: 1200px; 
+
+/*Mixins*/
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
