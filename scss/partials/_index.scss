@@ -48,6 +48,7 @@
     .efectivo-transferencia{
         display: flex;
         gap:1.9rem;
+        width: 90%;
         .efectivo, .transferencia, .tarjeta{
             color:#2B363B;
             display: flex;
@@ -55,6 +56,7 @@
         }
     }
     .entidades-pago{
+        width: 90%;
         color:#566B76;
         display: flex;
         align-items: center;
