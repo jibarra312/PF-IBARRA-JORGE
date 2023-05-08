@@ -55,7 +55,7 @@ h6 {
 .whatsapp {
   width: 55px;
   position: fixed;
-  bottom: 60px;
+  bottom: 310px;
   right: 50px;
 }
 .whatsapp:hover {
@@ -135,57 +135,76 @@ header .nav-item:hover {
 }
 
 /*Medio de pago*/
-.modo-pago {
+.container-medio-pago .efectivo-transferencia {
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 100%;
+  gap: 30px;
+}
+.container-medio-pago .efectivo-transferencia .efectivo, .container-medio-pago .efectivo-transferencia .transferencia, .container-medio-pago .efectivo-transferencia .tarjeta {
+  color: #2B363B;
+  display: flex;
+  font-size: 120px;
+}
+.container-medio-pago .entidades-pago {
+  color: #566B76;
+  display: flex;
+  align-items: center;
+  font-size: 110px;
 }
 
 /*Menu del Footer*/
 footer {
   display: flex;
-  background-image: linear-gradient(to top, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
+  background-color: #ffcbdf;
   justify-content: left;
   align-items: center;
   padding: 3.1rem;
 }
-footer .col-md-6 {
+footer .container .footer-row {
   display: flex;
-  align-items: center;
 }
-footer .col-md-6 .footer-a {
+footer .container .footer-row .footer-nav {
+  margin: auto;
+}
+footer .container .footer-row .footer-nav .redes-sociales {
+  display: flex;
+  gap: 40px;
+}
+footer .container .footer-row .footer-nav .redes-sociales a {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-footer .col-md-6 .footer-a:hover {
-  color: white;
-}
-footer .col-md-6 .footer-a .logo-newart:hover {
-  transform: scale(1.1, 1.1);
-  box-shadow: 1px 1px 2px black;
-}
-footer .col-md-6 .footer-a .nav-item {
-  display: flex;
-  margin: 3px;
-  background-color: #FFEDF0;
-  padding: 0.5rem;
-  border-radius: 1.6rem;
   text-decoration: none;
   color: black;
+  font-size: 30px;
+}
+footer .container .footer-row .footer-nav .redes-sociales a:hover {
+  transform: scale(1.5, 1.5);
+  color: #FF146A;
+}
+footer .container .footer-row .footer-nav .footer-logo-newart {
+  display: flex;
+}
+footer .container .footer-row .footer-nav .footer-logo-newart img {
+  width: 60%;
+  border-radius: 300px;
+}
+footer .container .footer-row .footer-nav .footer-logo-newart img:hover {
+  transform: scale(1.1, 1.1);
   box-shadow: 1px 1px 2px black;
 }
-footer .col-md-6 .footer-a .nav-item:hover {
-  transform: scale(1.1, 1.1);
+footer .container .footer-row .footer-nav .footer-menu {
+  list-style: none;
+  text-decoration: none;
 }
-
-/*Mapa*/
-.mapa {
-  width: 90%;
-  margin: 0 auto;
+footer .container .footer-row .footer-nav .footer-menu .footer-list {
+  display: flex;
+  justify-content: left;
+  text-decoration: none;
+  margin: 15px;
+  color: black;
+}
+footer .container .footer-row .footer-nav .footer-menu .footer-list:hover {
+  color: #FF146A;
+  transform: scale(1.1, 1.1);
 }
 
 /*Frase de Mayorista y minorista*/

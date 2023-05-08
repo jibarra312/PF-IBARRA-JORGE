@@ -44,10 +44,20 @@
 
 /*Medio de pago*/
 
-.modo-pago{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-}
+.container-medio-pago{
+    .efectivo-transferencia{
+        display: flex;
+        gap:30px;
+        .efectivo, .transferencia, .tarjeta{
+            color:#2B363B;
+            display: flex;
+            font-size: 120px;
+        }
+    }
+    .entidades-pago{
+        color:#566B76;
+        display: flex;
+        align-items: center;
+        font-size: 110px;
+    }
+    }

@@ -2,47 +2,59 @@
 
 footer{
     display: flex;
-    background-image: linear-gradient(to top, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
+    background-color: #ffcbdf;
     justify-content: left;
     align-items: center;
     padding: 3.1rem;
-    .col-md-6{
-        display: flex;
-        align-items: center;
-        .footer-a{
+    .container{
+        .footer-row {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 30px;
-            &:hover{
-                color:white
-            }
-            .logo-newart{
-                &:hover{
-                    transform: $scale-3d;
-                    box-shadow: $fondo-black;
+            .footer-nav{
+                margin: auto;
+                .redes-sociales{
+                    display: flex;
+                    gap: 40px;
+                    a{
+                        display: flex;
+                        justify-content: center;
+                        text-decoration: none;
+                        color:black;
+                        font-size: 30px;
+                        &:hover{
+                            transform: scale(1.5,1.5);
+                            color: #FF146A;
+                    }
+                    }   
                 }
-            }
-            .nav-item{
-                display: flex;
-                margin: 3px;
-                background-color:#FFEDF0;
-                padding: 0.5rem;
-                border-radius: 1.6rem;
-                text-decoration: none;
-                color: black;
-                box-shadow: $fondo-black;
-                &:hover{
-                    transform: $scale-3d;
+                .footer-logo-newart{
+                    display: flex;
+                    img{
+                        width: 60%;
+                        border-radius: 300px;
+                        &:hover{
+                            transform: $scale-3d;
+                            box-shadow: $fondo-black;
+                        }
+                    }
                 }
+                .footer-menu{
+                    list-style: none;
+                    text-decoration: none;
+                    
+                    .footer-list{
+                        display: flex;
+                        justify-content: left;
+                        text-decoration: none;
+                        margin:15px;
+                        color:black;
+                        &:hover{
+                            color:#FF146A;
+                            transform: $scale-3d;
+                        }
+                    }
+                }
+                
             }
         }
     }
-}
-
-/*Mapa*/
-
-.mapa{
-    width: 90%;
-    margin: 0 auto;
-}
+}    
