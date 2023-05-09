@@ -17,22 +17,26 @@ body {
   background-color: #FFF3F8;
 }
 
-h4, h1, h2 {
+h4, h1 {
   background-image: radial-gradient(circle, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
   padding: 0.9rem;
   font-size: 1.5rem;
   text-align: center;
 }
 
-h3, h5 {
+h2, h3 {
   text-align: center;
   margin: 0 auto;
 }
 
-h6 {
+h5 {
   display: flex;
   justify-content: center;
   text-decoration: line-through;
+}
+
+p {
+  text-align: center;
 }
 
 /*CARDS GENERALES PARA TODOS LOS PRODUCTOS*/
@@ -124,11 +128,6 @@ header .nav-item:hover {
 }
 .container-categorias .container-pinturas a img, .container-categorias .container-pincel a img, .container-categorias .container-marcadores a img {
   width: 70%;
-}
-
-.row {
-  width: 90%;
-  margin: 0 auto;
 }
 
 /*Medio de pago*/

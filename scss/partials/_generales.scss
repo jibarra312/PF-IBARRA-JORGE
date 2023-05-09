@@ -9,23 +9,27 @@ body{
     background-color: $color-terciario;
 }
 
-h4, h1, h2{
+h4, h1{
     background-image: $titulo-principal;
     padding: 0.9rem;
     font-size: 1.5rem;
     text-align: center;
 }
 
-h3, h5 {
+h2, h3{
     text-align: center;
     margin: 0 auto;
 }
 
 
-h6{
+h5{
     display: flex;
     justify-content: center;
     text-decoration: line-through ;
+}
+
+p{
+    text-align: center;
 }
 
 /*CARDS GENERALES PARA TODOS LOS PRODUCTOS*/
