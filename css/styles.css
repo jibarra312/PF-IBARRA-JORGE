@@ -54,6 +54,11 @@ p {
   display: flex;
 }
 
+.row {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /*Boton de Whatsapp en todas las paginas*/
 .whatsapp {
   width: 55px;
@@ -112,11 +117,6 @@ header .nav-item:hover {
 /*Promociones*/
 .card-body h5 {
   color: red;
-}
-
-.row {
-  width: 85%;
-  margin: 0 auto;
 }
 
 /*Estilo de Categorias*/
