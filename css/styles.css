@@ -230,6 +230,7 @@ footer {
 /*Frase de Mayorista y minorista*/
 .frase {
   font-size: 20px;
+  margin: 20px;
 }
 
 .mapa {
