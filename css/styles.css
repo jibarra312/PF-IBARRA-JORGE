@@ -108,30 +108,27 @@ header .nav-item:hover {
 
 /*ESTILO DE CARDS = VER EN GENERALES*/
 /*Estilo de Categorias*/
-.categoria {
+.container-categorias {
   display: flex;
-  width: 120%;
-  margin: 0 auto;
-  border-radius: 1.9rem;
 }
-.categoria:hover {
+.container-categorias .container-pinturas, .container-categorias .container-pincel, .container-categorias .container-marcadores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-categorias .container-pinturas:hover, .container-categorias .container-pincel:hover, .container-categorias .container-marcadores:hover {
   transform: scale(1.1, 1.1);
-  box-shadow: 1px 1px 2px black;
+}
+.container-categorias .container-pinturas a, .container-categorias .container-pincel a, .container-categorias .container-marcadores a {
+  display: flex;
+}
+.container-categorias .container-pinturas a img, .container-categorias .container-pincel a img, .container-categorias .container-marcadores a img {
+  width: 70%;
 }
 
 .row {
   width: 90%;
   margin: 0 auto;
-}
-
-.categorias-index {
-  display: flex;
-  width: 25%;
-  margin: 0 auto;
-  transform: scale(1.1, 1.1);
-}
-.categorias-index:hover {
-  transform: scale(1.1, 1.1);
 }
 
 /*Medio de pago*/

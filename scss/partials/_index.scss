@@ -15,31 +15,30 @@
 
 /*Estilo de Categorias*/
 
-.categoria{
+.container-categorias{
     display: flex;
-    width: 120%;
-    margin: 0 auto;
-    border-radius: 1.9rem;
-    &:hover{
-        transform: $scale-3d;
-        box-shadow: $fondo-black;
+    .container-pinturas, .container-pincel, .container-marcadores{
+        @include flex-column;
+        &:hover{
+            transform: $scale-3d;
+        }
+        a{
+            display: flex;
+            img{
+                width: 70%;
+            }    
+        }
     }
 }
+
+
 
 .row{
     width: 90%;
     margin: 0 auto;
 }
 
-.categorias-index {
-    display: flex;
-    width: 25%;
-    margin: 0 auto;
-    transform: $scale-3d;
-    &:hover{
-        transform: $scale-3d;
-    }
-}
+
 
 
 /*Medio de pago*/
