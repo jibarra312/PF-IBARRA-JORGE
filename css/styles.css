@@ -17,14 +17,14 @@ body {
   background-color: #FFF3F8;
 }
 
-h4, h1 {
+h4, h1, h2 {
   background-image: radial-gradient(circle, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
   padding: 0.9rem;
   font-size: 1.5rem;
   text-align: center;
 }
 
-h2, h3 {
+h3 {
   text-align: center;
   margin: 0 auto;
 }
@@ -110,7 +110,11 @@ header .nav-item:hover {
   font-style: italic;
 }
 
-/*ESTILO DE CARDS = VER EN GENERALES*/
+/*Promociones*/
+.card-body h5 {
+  color: red;
+}
+
 /*Estilo de Categorias*/
 .container-categorias {
   display: flex;

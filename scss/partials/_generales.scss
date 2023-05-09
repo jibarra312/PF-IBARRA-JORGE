@@ -9,14 +9,14 @@ body{
     background-color: $color-terciario;
 }
 
-h4, h1{
+h4, h1, h2{
     background-image: $titulo-principal;
     padding: 0.9rem;
     font-size: 1.5rem;
     text-align: center;
 }
 
-h2, h3{
+h3{
     text-align: center;
     margin: 0 auto;
 }
@@ -48,6 +48,8 @@ p{
             display: flex;
         }
 }
+
+
 
 /*Boton de Whatsapp en todas las paginas*/
 
