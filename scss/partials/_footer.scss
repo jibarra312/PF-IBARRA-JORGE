@@ -2,7 +2,7 @@
 
 footer{
     display: flex;
-    background-color: #ffcbdf;
+    background-color: $color-footer;
     justify-content: left;
     align-items: center;
     padding: 3.1rem;
@@ -41,10 +41,10 @@ footer{
         text-decoration: none;
         .footer-list{
             text-decoration: none;
-            color: black;
+            color: $color-negro;
             gap: $espacio-medio;
             &:hover{
-                color: #FF146A;
+                color: $color-nav-footer;
             }
         }
     }
@@ -54,11 +54,11 @@ footer{
     .redes-sociales{
         a{
             text-decoration: none;
-            color: black;
+            color: $color-negro;
             font-size: 35px;
             margin: 15px;
             &:hover{
-                color:#FF146A;
+                color: $color-nav-footer;
                 transform: scale(1.3,1.3);
             }
         }   

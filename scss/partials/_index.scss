@@ -19,6 +19,10 @@
     }
 }
 
+.row{
+    width: 85%;
+    margin: 0 auto;
+}
 /*Estilo de Categorias*/
 
 .container-categorias{
@@ -36,10 +40,6 @@
         }
     }
 }
-
-
-
-
 
 /*Medio de pago*/
 
@@ -72,4 +72,8 @@
     iconify-icon{
         font-size: $icono-grande;
     }
+}
+
+.visa, .american-express, .master-card, .mercado-pago{
+    color: #575D60;
 }

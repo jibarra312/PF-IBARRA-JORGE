@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*Colores*/
-/*Titulos*/
 /*Decoración*/
 /*Tamaños de iconos*/
 /*Separaciones (margenes y paddings)*/
@@ -14,7 +13,7 @@
 }
 
 body {
-  background-color: #FFF3F8;
+  background-color: #fff3f8;
 }
 
 h4, h1, h2 {
@@ -87,7 +86,7 @@ header .navbar-nav {
   margin-left: 1.9rem;
 }
 header .nav-item {
-  background-color: #FFEDF0;
+  background-color: #ffedf0;
   padding: 8px;
   border-radius: 25px;
   text-decoration: none;
@@ -113,6 +112,11 @@ header .nav-item:hover {
 /*Promociones*/
 .card-body h5 {
   color: red;
+}
+
+.row {
+  width: 85%;
+  margin: 0 auto;
 }
 
 /*Estilo de Categorias*/
@@ -166,6 +170,10 @@ header .nav-item:hover {
   font-size: 90px;
 }
 
+.visa, .american-express, .master-card, .mercado-pago {
+  color: #575D60;
+}
+
 /*Menu del Footer*/
 footer {
   display: flex;
@@ -213,7 +221,7 @@ footer {
   gap: 40px;
 }
 .footer-nav .footer-menu .footer-list:hover {
-  color: #FF146A;
+  color: #ff146a;
 }
 
 .footer-redes .redes-sociales a {
@@ -223,7 +231,7 @@ footer {
   margin: 15px;
 }
 .footer-redes .redes-sociales a:hover {
-  color: #FF146A;
+  color: #ff146a;
   transform: scale(1.3, 1.3);
 }
 

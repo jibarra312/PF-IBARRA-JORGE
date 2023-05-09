@@ -6,11 +6,11 @@
 }
 
 body{
-    background-color: $color-terciario;
+    background-color: #fff3f8;
 }
 
 h4, h1, h2{
-    background-image: $titulo-principal;
+    background-image: $color-grad-radial;
     padding: 0.9rem;
     font-size: 1.5rem;
     text-align: center;
@@ -39,7 +39,7 @@ p{
     margin: 1.9rem 1.9rem 0.9rem 1.3rem;
     background-color: white;
     border: solid #FF8AA0;
-    box-shadow: 0rem 0rem 0.4rem black;
+    box-shadow: 0rem 0rem 0.4rem $color-negro;
     .card-header{
         font-size: 1.3rem;
         text-align: center;

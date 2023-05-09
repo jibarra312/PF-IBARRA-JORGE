@@ -1,7 +1,7 @@
 header{
     display:flex;
     align-items: center;
-    background-image: linear-gradient(to bottom, #ffcbdf, #ffd5e6, #ffdfec, #ffe9f2, #fff3f8);
+    background-image: $color-grad-lineal;
         img{
             width: 65%;
         }
@@ -17,11 +17,11 @@ header{
             margin-left:1.9rem;
         }
             .nav-item{
-                background-color:#FFEDF0;
+                background-color:$color-nav-header;
                 padding: 8px;
                 border-radius: 25px;
                 text-decoration: none;
-                color: black;
+                color: $color-negro;
                 box-shadow: $fondo-black;
             }
             .nav-item:hover{
